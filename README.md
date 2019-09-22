@@ -28,7 +28,7 @@ return PartialView("Widgets/_BannerWidget", new BannerWidgetViewModel
 ```
 
 3. Add the widget to an MVC page, and open the config window to see the new property available:
-![form component image](https://github.com/liamgold/map-location-form-component/blob/master/img/FormComponent.PNG?raw=true)
+![form component image](https://raw.githubusercontent.com/liamgold/map-location-form-component/master/img/FormComponent.png)
 
 ## ⌨️ Contributions, 🐛 bug fixes and 📜 license
 Feel free to Fork and submit pull requests to contribute.
