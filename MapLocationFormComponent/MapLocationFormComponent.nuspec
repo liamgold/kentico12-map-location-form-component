@@ -24,11 +24,11 @@
 		<!-- Include the compiled views dll -->
 		<file src="bin\NetC.MapLocationFormComponent.Kentico.MVC.Views.dll" target = "lib\net472" />
 		<!-- Include extra css/js -->
-		<file src="Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.css" target = "Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.css" />
-		<file src="Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.js" target = "Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.js" />
-		<file src="Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.css" target = "Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.css" />
-		<file src="Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.js" target = "Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.js" />
-		<file src="Content\Images\MapLocationSelector\marker-icon.png" target = "Content\Images\MapLocationSelector\marker-icon.png" />
-		<file src="Content\Images\MapLocationSelector\marker-shadow.png" target = "Content\Images\MapLocationSelector\marker-shadow.png" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.css" target = "Content\Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.css" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.js" target = "Content\Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.js" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.css" target = "Content\Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.css" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.js" target = "Content\Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.js" />
+		<file src="Content\Images\MapLocationSelector\marker-icon.png" target = "Content\Content\Images\MapLocationSelector\marker-icon.png" />
+		<file src="Content\Images\MapLocationSelector\marker-shadow.png" target = "Content\Content\Images\MapLocationSelector\marker-shadow.png" />
 	</files>
 </package>
