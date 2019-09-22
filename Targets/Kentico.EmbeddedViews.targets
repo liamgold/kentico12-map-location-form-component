@@ -20,7 +20,7 @@
     <AspNetCompiler LogStandardErrorAsError="true" VirtualPath="/" PhysicalPath="$(MSBuildProjectDirectory)" TargetPath="$(IntermediateOutputPath)\Precompiled" Force="true" Debug="false" Updateable="false" Clean="true" />
     <Exec LogStandardErrorAsError="true" Command="$(ILRepack) /noRepackRes /parallel /wildcards /out:$(IntermediateOutputPath)\Precompiled\bin\$(AssemblyName).dll $(IntermediateOutputPath)\Precompiled\bin\$(AssemblyName).dll $(IntermediateOutputPath)\Precompiled\bin\App_Web_*.dll" />
   	<!-- Very important, on build must point it to the bin of your main class library -->
-    <Copy SourceFiles="$(IntermediateOutputPath)\Precompiled\bin\$(AssemblyName).dll" DestinationFolder="$(ProjectDir)\..\ShareableComponentBoilerplate\bin\" />
-    <Copy SourceFiles="$(IntermediateOutputPath)\Precompiled\bin\$(AssemblyName).pdb" DestinationFolder="$(ProjectDir)\..\ShareableComponentBoilerplate\bin\" />
+    <Copy SourceFiles="$(IntermediateOutputPath)\Precompiled\bin\$(AssemblyName).dll" DestinationFolder="$(ProjectDir)\..\MapLocationFormComponent\bin\" />
+    <Copy SourceFiles="$(IntermediateOutputPath)\Precompiled\bin\$(AssemblyName).pdb" DestinationFolder="$(ProjectDir)\..\MapLocationFormComponent\bin\" />
   </Target>
 </Project>

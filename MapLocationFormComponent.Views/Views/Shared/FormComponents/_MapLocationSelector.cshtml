@@ -1,0 +1,38 @@
+@model NetC.MapLocationFormComponent.Kentico.MVC.MapLocationSelectorComponent
+
+@{
+    var id = string.Format("mapid_{0}", Guid.NewGuid().ToString("N"));
+}
+
+<div id="@id" style="width: 375px; height: 300px;"></div>
+
+<script type="text/javascript">
+    if (document.readyState === "loading") {
+        // Calls the function during the 'DOMContentLoaded' event, after the HTML document has been completely loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            createMapSelector(
+                "@id",
+                "@Html.IdFor(x => x.Latitude)",
+                @Html.ValueFor(x => x.Latitude),
+                "@Html.IdFor(x => x.Longitude)",
+                @Html.ValueFor(x => x.Longitude),
+                "@Url.Content("~/Content/Images/MapLocationSelector/marker-icon.png")",
+                "@Url.Content("~/Content/Images/MapLocationSelector/marker-shadow.png")",
+            );
+        });
+    } else {
+        // Calls the function directly in cases where the component is rendered dynamically after 'DOMContentLoaded' has occurred
+        createMapSelector(
+            "@id",
+            "@Html.IdFor(x => x.Latitude)",
+            @Html.ValueFor(x => x.Latitude),
+            "@Html.IdFor(x => x.Longitude)",
+            @Html.ValueFor(x => x.Longitude),
+            "@Url.Content("~/Content/Images/MapLocationSelector/marker-icon.png")",
+            "@Url.Content("~/Content/Images/MapLocationSelector/marker-shadow.png")",
+        );
+    }
+</script>
+
+@Html.HiddenFor(x => x.Latitude)
+@Html.HiddenFor(x => x.Longitude)

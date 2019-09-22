@@ -1,0 +1,4 @@
+﻿.ktc-form-wrapper .ktc-form .leaflet-control .leaflet-control-zoom-in,
+.ktc-form-wrapper .ktc-form .leaflet-control .leaflet-control-zoom-out {
+    text-decoration: none;
+}

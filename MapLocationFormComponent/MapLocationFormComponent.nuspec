@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/liamgold/map-location-form-component</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/Kentico/devnet.kentico.com/master/marketplace/assets/generic-integration.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<releaseNotes>
+		  Initial release.
+		</releaseNotes>
+		<copyright>MIT</copyright>
+		<tags>Map Location Kentico MVC NetConstruct</tags>
+		<dependencies>
+			<dependency id="Kentico.AspNet.Mvc" version="12.0.29" />
+		</dependencies>
+		<license type="expression">MIT</license>											
+	</metadata>
+	<files>
+		<!-- Include the compiled views dll -->
+		<file src="bin\NetC.MapLocationFormComponent.Kentico.MVC.Views.dll" target = "lib\net472" />
+		<!-- Include extra css/js -->
+		<file src="Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.css" target = "Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.css" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.js" target = "Content\FormComponents\MapLocationSelectorComponent\leaflet.admin.js" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.css" target = "Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.css" />
+		<file src="Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.js" target = "Content\FormComponents\MapLocationSelectorComponent\MapLocationSelectorComponent.admin.js" />
+		<file src="Content\Images\MapLocationSelector\marker-icon.png" target = "Content\Images\MapLocationSelector\marker-icon.png" />
+		<file src="Content\Images\MapLocationSelector\marker-shadow.png" target = "Content\Images\MapLocationSelector\marker-shadow.png" />
+	</files>
+</package>
