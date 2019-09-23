@@ -418,8 +418,8 @@
     <Reference Include="Mono.Cecil.Rocks, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
       <HintPath>..\packages\Mono.Cecil.0.10.0\lib\net40\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
-    <Reference Include="NetCMapLocationFormComponent.Kentico.MVC.Views">
-      <HintPath>bin\NetCMapLocationFormComponent.Kentico.MVC.Views.dll</HintPath>
+    <Reference Include="NetC.MapLocationFormComponent.Kentico.MVC.Views">
+      <HintPath>bin\NetC.MapLocationFormComponent.Kentico.MVC.Views.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -454,6 +454,7 @@
     <Reference Include="System.Data.HashFunction.Interfaces, Version=2.0.0.0, Culture=neutral, PublicKeyToken=80c9288e394c1322, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.HashFunction.Interfaces.2.0.0\lib\net45\System.Data.HashFunction.Interfaces.dll</HintPath>
     </Reference>
+    <Reference Include="System.Device" />
     <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.FileSystem.Primitives.4.0.1\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
       <Private>True</Private>
@@ -532,7 +533,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\FormComponents\MapLocationSelector\MapLocation.cs" />
     <Compile Include="Models\FormComponents\MapLocationSelector\MapLocationSelectorComponent.cs" />
     <Compile Include="Models\FormComponents\MapLocationSelector\MapLocationSelectorProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

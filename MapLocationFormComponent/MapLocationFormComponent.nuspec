@@ -11,7 +11,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
 		<releaseNotes>
-		  Bump Microsoft.Data.OData in /MapLocationFormComponent.Views, /MapLocationFormComponent
+		  Changed to use built-in GeoCoordinate class instead of MapLocation
 		</releaseNotes>
 		<copyright>MIT</copyright>
 		<tags>Map Location Kentico MVC NetConstruct</tags>

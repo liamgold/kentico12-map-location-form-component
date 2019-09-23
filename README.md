@@ -7,11 +7,16 @@ https://www.nuget.org/packages/NetC.MapLocationFormComponent.Kentico.MVC/
 ## Example use
 1. Include a property within an MVC widget property class:
 ```
+using System.Device.Location;
+using NetC.MapLocationFormComponent.Kentico.MVC;
+```
+
+```
 [EditingComponent(MapLocationSelectorComponent.IDENTIFIER, Label = "Location")]
 /// <summary>
 /// Map Location field input.
 /// </summary>
-public MapLocation Location { get; set; }
+public GeoCoordinate Location { get; set; }
 ```
 
 2. Complete setting up the MVC widget itself, maybe you want to pass the individual values for Latitude and Longitude to your widget view model:
